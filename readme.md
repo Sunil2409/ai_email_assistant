@@ -24,7 +24,7 @@ In terminal: docker --version
 Mac / Windows: https://www.docker.com/products/docker-desktop
 
 # Run in your IDE
-git clone https://github.com/<your-username>/ai-email-assistant.git
+git clone [https://github.com/<your-username>/ai-email-assistant.git](https://github.com/Sunil2409/ai_email_assistant.git)
 cd ai-email-assistant
 
 # Create a Gmail App Password (VERY IMPORTANT)
