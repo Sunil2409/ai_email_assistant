@@ -1,3 +1,4 @@
+import os
 import imaplib
 import email
 from email.header import decode_header
@@ -7,8 +8,13 @@ import html as _html_unescape
 # -------------------------------
 # Gmail Configuration
 # -------------------------------
-EMAIL_ACCOUNT = "sk7962544@gmail.com"
-APP_PASSWORD = "gghzembbhzezwxje"
+EMAIL_ACCOUNT = os.getenv("EMAIL_ACCOUNT")
+APP_PASSWORD = os.getenv("APP_PASSWORD")
+
+if not EMAIL_ACCOUNT or not APP_PASSWORD:
+    raise ValueError(
+        "Missing EMAIL_ACCOUNT or APP_PASSWORD environment variables"
+    )
 
 IMAP_SERVER = "imap.gmail.com"
 IMAP_PORT = 993
