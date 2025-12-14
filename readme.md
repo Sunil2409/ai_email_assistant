@@ -25,15 +25,16 @@ Mac / Windows: https://www.docker.com/products/docker-desktop
 
 # Run in your IDE
 git clone [https://github.com/<your-username>/ai-email-assistant.git](https://github.com/Sunil2409/ai_email_assistant.git)
+
 cd ai-email-assistant
 
 # Create a Gmail App Password (VERY IMPORTANT)
-Go to Google Account → Security
-Enable 2-Step Verification
-Create an App Password
-Select:
-App: Mail
-Device: Other
+Go to Google Account → Security →
+Enable 2-Step Verification →
+Create an App Password →
+Select: →
+App: Mail →
+Device: Other →
 Copy the generated password (16 characters)
 ⚠️ Normal Gmail password will NOT work.
 
